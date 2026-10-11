@@ -10,7 +10,8 @@ public class letterCounter {
 
         System.out.print("Enter letter: ");
         String letterInput = input.nextLine();
-
+        letterInput = letterInput.toLowerCase();
+        
         char target = letterInput.charAt(0);
 
         int count = 0;
